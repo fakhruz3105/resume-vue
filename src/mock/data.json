@@ -1,0 +1,15 @@
+{
+  "customers": [
+    {
+      "id": "",
+      "name": "",
+      "age": 0,
+      "phoneNumber": "",
+      "address": "",
+      "avatar": "",
+      "interests": [""],
+      "paymentType": "",
+      "createdAt": 0
+    }
+  ]
+}
