@@ -127,7 +127,7 @@ const showBorder = ref(false)
                 Research and identify solutions to technical issues and managed to solved more than 30% of all issues per day.
               </li>
               <li>
-                Liased with customers to get to the root of the problems they faced, able to fix customers' issues quickly and efficiently within required time limits.
+                Liaised with customers to get to the root of the problems they faced, able to fix customers' issues quickly and efficiently within required time limits.
               </li>
             </ul>
           </div>
