@@ -197,7 +197,8 @@ const showBorder = ref(false)
       <span class="text-xl font-bold primary-text mb-2">Technical Skills</span>
       <div class="flex flex-wrap justify-around">
         <span
-          v-for="skill of skills"
+          v-for="(skill, i) of skills"
+          :key="i"
           class="primary-bg text-sm font-semibold px-3.5 py-2 rounded mb-2"
         >{{ skill }}</span>
       </div>
