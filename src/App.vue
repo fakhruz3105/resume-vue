@@ -20,7 +20,7 @@ const showBorder = ref(false)
       <div class="flex flex-col justify-start py-4">
         <span class="text-2xl font-bold">Nur Syafiqah Binti Yusop</span>
         <span class="text-base text-slate-500">QC Engineer</span>
-        <span class="text-sm">Enthusiastic and passionate woman with experience as a QC engineer, technical support, and admin. Highly motivated, eager to learn, and always looking forward to experience new working culture.</span>
+        <span class="text-sm">Experienced QC engineer, technical support, and admin. Passionate, motivated, always eager to learn, adapt to new cultures, and embrace fresh challenges in the dynamic work environment.</span>
       </div>
     </div>
     <div
@@ -91,6 +91,28 @@ const showBorder = ref(false)
         <li class="ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
+            <span class="leading-5">Oct, 2020 - Present</span>
+            <div class="flex items-center">
+              <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span>Kuala Lumpur</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span class="leading-5 text-base font-bold">IT Helpdesk</span>
+            <span class="leading-5 text-base font-semibold">Huawei Technologies (Malaysia) Sdn Bhd</span>
+            <ul class="list-disc pl-4 text-sm text-justify">
+              <li>
+                Handled service requests of Huawei's clients from the South Pacific Region using iCare system/emails/calls, ensured the smooth progress of service, followed up on pending requests, analyzed service data, and provided reports to internal teams and customers.
+              </li>
+              <li>
+                Managed calls and tickets on the iCare system, communicated with customers to provide updates, conducted surveys and test calls, and maintained proficiency in maintenance processes.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="ml-4">
+          <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
+          <div class="flex justify-between items-center mb-2 primary-text text-sm">
             <span class="leading-5">Jan, 2018 - Dec, 2019</span>
             <div class="flex items-center">
               <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
@@ -99,7 +121,7 @@ const showBorder = ref(false)
           </div>
           <div class="flex flex-col">
             <span class="leading-5 text-base font-bold">Quality Control Engineer</span>
-            <span class="leading-5 text-lg font-light">Japan Solderless Terminal (JST) Connector (M) Sdn. Bhd</span>
+            <span class="leading-5 text-base font-semibold">Japan Solderless Terminal (JST) Connector (M) Sdn. Bhd</span>
             <ul class="list-disc pl-4 text-sm text-justify">
               <li>
                 Ensured products quality and standard requirements were met, managed to reduce product recall.
@@ -121,7 +143,7 @@ const showBorder = ref(false)
           </div>
           <div class="flex flex-col">
             <span class="leading-5 text-base font-bold">Technical Support Executive</span>
-            <span class="leading-5 text-lg font-light">AEGIS BPO Sdn. Bhd</span>
+            <span class="leading-5 text-base font-semibold">AEGIS BPO Sdn. Bhd</span>
             <ul class="list-disc pl-4 text-sm text-justify">
               <li>
                 Research and identify solutions to technical issues and managed to solved more than 30% of all issues per day.
@@ -143,7 +165,7 @@ const showBorder = ref(false)
           </div>
           <div class="flex flex-col">
             <span class="leading-5 text-base font-bold">Admin</span>
-            <span class="leading-5 text-lg font-light">IIUM Research Management Center</span>
+            <span class="leading-5 text-base font-semibold">IIUM Research Management Center</span>
             <ul class="list-disc pl-4 text-sm text-justify">
               <li>
                 Carried out administrative duties and maintained the research center filing system.
