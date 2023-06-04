@@ -132,6 +132,15 @@ const showBorder = ref(false)
             </ul>
           </div>
         </li>
+      </ol>
+    </div>
+  </div>
+  <div
+    class="page"
+    :class="{ 'show-page-border': showBorder }"
+  >
+    <div class="flex flex-col justify-start items-start px-4 pt-4 mb-2">
+      <ol class="relative border-l border-gray-200 space-y-2">
         <li class="ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
