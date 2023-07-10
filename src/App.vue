@@ -8,7 +8,7 @@ const skills = ref([
   "Autodesk Fusion",
 ]);
 
-const showBorder = ref(true);
+const showBorder = ref(false);
 </script>
 
 <template>
@@ -349,5 +349,6 @@ const showBorder = ref(true);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #4bb2db;
+  width: 350px;
 }
 </style>
