@@ -5,7 +5,8 @@ const skills = ref([
   'VueJS', 'NestJS', 'Typescript', 'Javascript', 'Python',
   'Java', 'SpringBoot', 'Bash', 'Docker', 'Linux',
   'MS SQL Server', 'MySQL', 'Sqlite', 'Git', 'Electron',
-  'Postgres'
+  'Postgres', 'Firebase', 'ReactJS', 'React Native',
+  'NextJS', 'MongoDB', 'Scrum', 'Agile'
 ])
 
 const showBorder = ref(false)
@@ -65,7 +66,35 @@ const showBorder = ref(false)
         <li class="ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
-            <span class="leading-5">March, 2020 - Present</span>
+            <span class="leading-5">September, 2022 - Present</span>
+            <div class="flex items-center">
+              <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span>Kuala Lumpur</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span class="leading-5 text-base font-bold">Software Engineer</span>
+            <span class="leading-5 text-lg font-light">Lizard Global</span>
+            <ul class="list-disc pl-4 text-sm text-justify">
+              <li>
+                Improved and managed a collaborative document editor and a remote signing platform that leverage blockchain technology through <strong>Firebase</strong> and <strong>ReactJS</strong>. This platforms enable users to collaboratively create and edit contracts online in real-time, culminating in the secure signing and preservation of contracts on the blockchain.
+              </li>
+              <li>
+                Built and maintained mobile and web e-hailing application using <strong>ExpressJS</strong>, <strong>GraphQL</strong>, <strong>React Native</strong> and <strong>NextJS</strong>. This platform allow users to conveniently schedule taxi rides from any location in the Netherlands.
+              </li>
+              <li>
+                Introduced <strong>Typescript</strong> to the project code base to have type safety within the large project. Improved project quality and reduced compile-time errors to 100%.
+              </li>
+              <li>
+                Improved code base unit test coverage from 10% to 40%.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="ml-4">
+          <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
+          <div class="flex justify-between items-center mb-2 primary-text text-sm">
+            <span class="leading-5">March, 2020 - September, 2022</span>
             <div class="flex items-center">
               <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
               <span>Remote</span>
@@ -112,6 +141,15 @@ const showBorder = ref(false)
             </ul>
           </div>
         </li>
+      </ol>
+    </div>
+  </div>
+  <div
+    class="page"
+    :class="{ 'show-page-border': showBorder }"
+  >
+    <div class="flex flex-col justify-start items-start px-4 pt-4">
+      <ol class="relative border-l border-gray-200 space-y-2">
         <li class="ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
@@ -155,11 +193,6 @@ const showBorder = ref(false)
         </li>
       </ol>
     </div>
-  </div>
-  <div
-    class="page"
-    :class="{ 'show-page-border': showBorder }"
-  >
     <div class="flex flex-col justify-start items-start px-4 pt-4">
       <span class="text-xl font-bold primary-text mb-2">Education</span>
       <ol class="grid grid-cols-2 gap-8 border-t-2 border-gray-200 mt-4">
