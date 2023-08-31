@@ -19,8 +19,8 @@ const showBorder = ref(false)
       <div class="profile-pic bg-slate-500 rounded-xl w-[80%] m-4"></div>
       <div class="flex flex-col justify-start py-4">
         <span class="text-2xl font-bold">Nur Syafiqah Binti Yusop</span>
-        <span class="text-base text-slate-500">QC Engineer</span>
-        <span class="text-sm">Experienced QC engineer, technical support, and admin. Passionate, motivated, always eager to learn, adapt to new cultures, and embrace fresh challenges in the dynamic work environment.</span>
+        <span class="text-base text-slate-500">Customer Care Representative</span>
+        <span class="text-sm">Experienced in Customer Care Representative and technical support, I am a passionate, motivated individual who is always eager to learn, adapt to new cultures, and embrace fresh challenges in dynamic work environments.</span>
       </div>
     </div>
     <div
@@ -98,7 +98,7 @@ const showBorder = ref(false)
             </div>
           </div>
           <div class="flex flex-col">
-            <span class="leading-5 text-base font-bold">IT Helpdesk</span>
+            <span class="leading-5 text-base font-bold">Customer Care Representative</span>
             <span class="leading-5 text-base font-semibold">Huawei Technologies (Malaysia) Sdn Bhd</span>
             <ul class="list-disc pl-4 text-sm text-justify">
               <li>
