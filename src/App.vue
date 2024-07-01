@@ -14,11 +14,11 @@ const showBorder = ref(false);
 <template>
   <div class="page" :class="{ 'show-page-border': showBorder }">
     <div class="flex">
-      <div class="profile-pic bg-slate-500 rounded-xl w-[80%] m-4"></div>
+      <div class="profile-pic bg-slate-500 rounded-xl m-4"></div>
       <div class="flex flex-col justify-start py-4">
         <span class="text-2xl font-bold">Muhammad Fakhruddin Bin Mutussin</span>
         <span class="text-base text-slate-500">Mechanical Engineer</span>
-        <span class="text-sm"
+        <span class="text-sm text-justify"
           >Passionate mechanical engineer experienced in designing and
           optimizing systems. Skilled in CAD, project management, and delivering
           high-quality results in fast-paced environments. Continuously
@@ -71,7 +71,7 @@ const showBorder = ref(false);
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               ></path>
             </svg>
-            <span class="text-sm">Sabah, Malaysia</span>
+            <span class="text-sm">Kulim, Kedah</span>
           </div>
           <div class="flex justify-start items-center my-1">
             <svg
@@ -103,7 +103,7 @@ const showBorder = ref(false);
           <div
             class="flex justify-between items-center mb-2 primary-text text-sm"
           >
-            <span class="leading-5">April, 2020 - Present</span>
+            <span class="leading-5">April, 2020 - June, 2024</span>
             <div class="flex items-center">
               <svg
                 class="w-3 h-3 mr-2"
@@ -345,10 +345,10 @@ const showBorder = ref(false);
 
 .profile-pic {
   background-image: url("./assets/passport.png");
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #4bb2db;
-  width: 350px;
+  width: 450px;
 }
 </style>
