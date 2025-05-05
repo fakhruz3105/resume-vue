@@ -3,10 +3,9 @@ import { ref } from 'vue';
 
 const skills = ref([
   'VueJS', 'NestJS', 'Typescript', 'Javascript', 'Python',
-  'Java', 'SpringBoot', 'Bash', 'Docker', 'Linux',
-  'MS SQL Server', 'MySQL', 'Sqlite', 'Git', 'Electron',
+  'Java', 'SpringBoot', 'Bash', 'Docker', 'Linux', 'MySQL', 'Sqlite', 'Git', 'Electron',
   'Postgres', 'Firebase', 'ReactJS', 'React Native',
-  'NextJS', 'MongoDB', 'Azure', 'AWS'
+  'NextJS', 'MongoDB', 'Azure', 'AWS', 'Pocketbase', 'Go'
 ])
 
 const showBorder = ref(false)
@@ -22,7 +21,7 @@ const showBorder = ref(false)
       <div class="flex flex-col justify-start py-4">
         <span class="text-2xl font-bold">Muhammad Fakhruz Razi Bin Mutussin</span>
         <span class="text-base text-slate-500">Software Engineer</span>
-        <span class="text-sm">Enthusiastic and passionate programmer with 5 years experience in full stack web and mobile development with high rates of project delivery in a fast-paced and deadline-driven environment. Love to solve problems, eager to learn, self-taught and always looking forward to experience new working culture. Code maintainability is a principle I build into every project.</span>
+        <span class="text-sm">Enthusiastic and passionate programmer with 5 years of experience in full stack web and mobile development with high rates of project delivery in a fast-paced and deadline-driven environment. I love solving problems, am eager to learn, self-taught, and always looking forward to experiencing new work cultures. Code maintainability is a principle I build into every project.</span>
       </div>
     </div>
     <div
@@ -77,19 +76,28 @@ const showBorder = ref(false)
             <span class="leading-5 text-lg font-light">Muslimtravelbug Sdn Bhd</span>
             <ul class="list-disc pl-4 text-sm text-justify">
               <li>
-                Streamlined workflows and communication between frontend teams (sales, customer service) and backend teams (operations, accounts), reducing human errors and handover issues. Improved systemization to ensure smooth operations and zero critical errors—preventing potential losses of thousands of ringgit.
+                Bridged gaps between frontend and backend teams, minimizing handover errors through improved systemization. Enhanced communication protocols eliminated critical errors that could have resulted in thousands of ringgit in losses.
               </li>
               <li>
-                Developed and maintained a comprehensive travel management application using <strong>Laravel</strong>, <strong>NodeJS</strong>, <strong>MySQL</strong>, and <strong>VueJS</strong> to centralize travel package storage, booking and payment processing, passenger detail management, tour package organization, and ticketing operations. This platform enables the company to efficiently manage and update available tour packages, securely handle customer bookings and payments, store and retrieve detailed traveler information, and streamline ticket issuance—all within a single, integrated system.
+                Created an end-to-end travel management platform with <strong>Laravel</strong>, <strong>NodeJS</strong>, <strong>MySQL</strong>, and <strong>VueJS</strong> that centralizes package inventory, booking processes, payment handling, passenger data, and ticketing operations in one integrated system, enabling efficient tour package management and customer transactions.
               </li>
               <li>
-                Developed and maintained an application using <strong>NodeJS</strong> and <strong>ReactJS</strong>, fully integrated with the <strong>Facebook Graph API</strong> to connect the company's sales team with leads generated through Facebook advertisements. This platform automatically retrieves and syncs lead data from active ad campaigns, delivering real-time notifications and detailed lead information directly to the sales dashboard. By enabling instant access to incoming prospects, the application streamlines lead follow-up, enhances response times, and empowers the sales team to manage and convert leads more efficiently within a unified, intuitive interface.
+                Developed a <strong>NodeJS</strong> and <strong>ReactJS</strong> application with full <strong>Facebook Graph API</strong> integration to connect sales teams with ad-generated leads. The system automatically syncs campaign lead data, delivers real-time notifications, and presents detailed prospect information in a unified dashboard, significantly improving response times and conversion efficiency.
               </li>
               <li>
-                Built a personalized chatbot assistant for the company's sales team, designed to maintain customer engagement via WhatsApp during periods when individual team members are away or on leave. Each salesperson uses their own WhatsApp account to communicate with prospects, and the chatbot seamlessly takes over in their absence to ensure no inquiries are missed. Built using <strong>NodeJS</strong>, <strong>Python</strong>, the <strong>LlamaIndex</strong> library, and <strong>ChatGPT</strong>, the chatbot is integrated with the company's travel management system to provide context-aware responses, helping to answer customer questions accurately and maintain prospect interest until a salesperson becomes available.
+                Implemented a WhatsApp-based chatbot assistant using <strong>NodeJS</strong>, <strong>Python</strong>, <strong>LlamaIndex</strong>, and <strong>ChatGPT</strong> that maintains prospect engagement when sales team members are unavailable. The chatbot integrates with the company's travel system to provide context-aware responses, answer customer inquiries, and sustain prospect interest until salespeople return.
               </li>
               <li>
-                Reduced tech expenses by over RM1,000/month by eliminating unnecessary third-party subscriptions and server costs, all without disrupting business operations or requirements.
+                Developed an HR system using <strong>ReactJS</strong> and <strong>Supabase</strong> to manage staff details, including entry and exit forms, leave applications, and other HR-related processes, streamlining internal operations.
+              </li>
+              <li>
+                Engineered a comprehensive car rental management system using <strong>Pocketbase</strong> and <strong>Go</strong> that enables the sales team to track vehicle availability in real-time, process bookings efficiently, and handle payment transactions securely. This solution streamlines fleet management operations and enhances the customer reservation experience through an optimized backend architecture.
+              </li>
+              <li>
+                Configured, deployed and manage server infrastructure (Digital Ocean) to support backend services and applications.
+              </li>
+              <li>
+                Cut tech expenses by over RM1,000/month by eliminating unnecessary subscriptions and server costs without disrupting operations.
               </li>
             </ul>
           </div>
@@ -111,13 +119,13 @@ const showBorder = ref(false)
                 Improved and managed a collaborative document editor and a remote signing platform that leverage blockchain technology through <strong>Firebase</strong> and <strong>ReactJS</strong>. This platforms enable users to collaboratively create and edit contracts online in real-time, culminating in the secure signing and preservation of contracts on the blockchain.
               </li>
               <li>
-                Developed, and consistently maintained e-hailing application for both mobile and web platforms using a tech stack comprising <strong>ExpressJS</strong>, <strong>GraphQL</strong>, <strong>React Native</strong>, and <strong>NextJS</strong>. Proficiently managed the continuous integration and continuous deployment (CI/CD) pipeline through <strong>Azure</strong>. This platform empowers users with the convenience to effortlessly schedule taxi rides from anywhere within the Netherlands.
+                Developed and consistently maintained e-hailing application for both mobile and web platforms using a tech stack comprising <strong>ExpressJS</strong>, <strong>GraphQL</strong>, <strong>React Native</strong>, and <strong>NextJS</strong>. Proficiently managed the continuous integration and continuous deployment (CI/CD) pipeline through <strong>Azure</strong>. This platform enables users with the convenience to effortlessly schedule taxi rides from anywhere within the Netherlands.
               </li>
               <li>
                 Introduced <strong>Typescript</strong> to the project code base to have type safety within the large project. Improved project quality and reduced compile-time errors to 100%.
               </li>
               <li>
-                Improved code base unit test coverage from 10% to 40%.
+                Improved unit test coverage of the codebase from 10% to 40%.
               </li>
             </ul>
           </div>
@@ -142,7 +150,7 @@ const showBorder = ref(false)
                 Built and maintained a module in the company's main product that handles user commission calculation and commission report generation using <strong>NestJS</strong>, <strong>PuppeteerJS</strong> and <strong>VueJS</strong>.
               </li>
               <li>
-                Refactored <strong>NestJS</strong> and <strong>Java</strong> backend code base using object-oriented <strong>SOLID</strong> principle to optimize application performance and to improve code customizability and maintainability, reducing customization time for new clients more than 50%.
+                Refactored <strong>NestJS</strong> and <strong>Java</strong> backend code base using object-oriented <strong>SOLID</strong> principles to optimize application performance and to improve code customizability and maintainability, reducing customization time for new clients more than 50%.
               </li>
               <li>
                 Improved code base unit test coverage from 20% to 50%.
@@ -164,7 +172,7 @@ const showBorder = ref(false)
             <span class="leading-5 text-lg font-light">Geomotion Pte. Ltd. (Singapore)</span>
             <ul class="list-disc pl-4 text-sm text-justify">
               <li>
-                Supervised soil investigation works on-site to handle logistics requirement, to ensure safety protocols were followed, and to ensure project deadlines are met, managed to achieved 100% rates of success in delivering project under required deadline.
+                Supervised soil investigation works on-site to handle logistics requirements, ensured safety protocols were followed, and met project deadlines—achieving a 100% success rate in delivering projects on time.
               </li>
               <li>
                 Prepared borelog reports based on soil and rock samples and conducted downhole seismic data acquisition for MRT station and tunnel construction in Singapore.
@@ -224,7 +232,7 @@ const showBorder = ref(false)
             <span class="leading-5 text-base font-bold">MSc in Petroleum Geology</span>
             <span class="leading-5 text-sm font-light">Universiti Malaya</span>
             <span class="leading-5 text-xs font-light">Jun, 2015 - Oct, 2016</span>
-            <p class="leading-5 text-sm text-justify">Graduate with Distinction and one of the recipient of ConocoPhillips Scholarship.</p>
+            <p class="leading-5 text-sm text-justify">Graduate with Distinction and one of the recipients of the ConocoPhillips Scholarship.</p>
           </div>
         </li>
       </ol>
@@ -235,7 +243,7 @@ const showBorder = ref(false)
         <span
           v-for="(skill, i) of skills"
           :key="i"
-          class="primary-bg text-sm font-semibold px-3.5 py-2 rounded mb-2"
+          class="primary-bg text-sm font-semibold px-3 py-2 rounded mb-3"
         >{{ skill }}</span>
       </div>
     </div>
