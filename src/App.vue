@@ -22,7 +22,7 @@ const showBorder = ref(false)
       <div class="flex flex-col justify-start py-4">
         <span class="text-2xl font-bold">Muhammad Fakhruz Razi Bin Mutussin</span>
         <span class="text-base text-slate-500">Software Engineer</span>
-        <span class="text-sm">Enthusiastic, passionate and forward looking programmer with 2 years experience in full stack web development with high rates of project delivery in a fast-paced and deadline-driven environment. Eager to learn, self-taught and always looking forward to experience new working culture. Highly interested in learning large scale project management.</span>
+        <span class="text-sm">Enthusiastic and passionate programmer with 5 years experience in full stack web and mobile development with high rates of project delivery in a fast-paced and deadline-driven environment. Love to solve problems, eager to learn, self-taught and always looking forward to experience new working culture. Code maintainability is a principle I build into every project.</span>
       </div>
     </div>
     <div
@@ -37,7 +37,7 @@ const showBorder = ref(false)
           </div>
           <div class="flex justify-start items-center my-1">
             <svg class="w-6 h-6 primary-text mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-            <span class="text-sm">Sabah, Malaysia</span>
+            <span class="text-sm">W.P. Putrajaya, Malaysia</span>
           </div>
           <div class="flex justify-start items-center my-1">
             <svg class="w-6 h-6 primary-text mr-2 fill-[#4BB2DB]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M477.5 128C463 103.05 285.13 0 256.16 0S49.25 102.79 34.84 128s-14.49 230.8 0 256 192.38 128 221.32 128S463 409.08 477.49 384s14.51-231 .01-256zM316.13 414.22c-4 0-40.91-35.77-38-38.69.87-.87 6.26-1.48 17.55-1.83 0-26.23.59-68.59.94-86.32 0-2-.44-3.43-.44-5.85h-79.93c0 7.1-.46 36.2 1.37 72.88.23 4.54-1.58 6-5.74 5.94-10.13 0-20.27-.11-30.41-.08-4.1 0-5.87-1.53-5.74-6.11.92-33.44 3-84-.15-212.67v-3.17c-9.67-.35-16.38-1-17.26-1.84-2.92-2.92 34.54-38.69 38.49-38.69s41.17 35.78 38.27 38.69c-.87.87-7.9 1.49-16.77 1.84v3.16c-2.42 25.75-2 79.59-2.63 105.39h80.26c0-4.55.39-34.74-1.2-83.64-.1-3.39.95-5.17 4.21-5.2 11.07-.08 22.15-.13 33.23-.06 3.46 0 4.57 1.72 4.5 5.38C333 354.64 336 341.29 336 373.69c8.87.35 16.82 1 17.69 1.84 2.88 2.91-33.62 38.69-37.58 38.69z"/></svg>
@@ -63,10 +63,41 @@ const showBorder = ref(false)
     <div class="flex flex-col justify-start items-start px-4 pt-4">
       <span class="text-xl font-bold primary-text mb-2">Work Experience</span>
       <ol class="relative border-l border-gray-200 space-y-2">
-        <li class="ml-4">
+        <li class="section ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
-            <span class="leading-5">September, 2022 - Present</span>
+            <span class="leading-5">October, 2023 - Present</span>
+            <div class="flex items-center">
+              <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span>Kuala Lumpur</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span class="leading-5 text-base font-bold">Senior Software Engineer</span>
+            <span class="leading-5 text-lg font-light">Muslimtravelbug Sdn Bhd</span>
+            <ul class="list-disc pl-4 text-sm text-justify">
+              <li>
+                Streamlined workflows and communication between frontend teams (sales, customer service) and backend teams (operations, accounts), reducing human errors and handover issues. Improved systemization to ensure smooth operations and zero critical errors—preventing potential losses of thousands of ringgit.
+              </li>
+              <li>
+                Developed and maintained a comprehensive travel management application using <strong>Laravel</strong>, <strong>NodeJS</strong>, <strong>MySQL</strong>, and <strong>VueJS</strong> to centralize travel package storage, booking and payment processing, passenger detail management, tour package organization, and ticketing operations. This platform enables the company to efficiently manage and update available tour packages, securely handle customer bookings and payments, store and retrieve detailed traveler information, and streamline ticket issuance—all within a single, integrated system.
+              </li>
+              <li>
+                Developed and maintained an application using <strong>NodeJS</strong> and <strong>ReactJS</strong>, fully integrated with the <strong>Facebook Graph API</strong> to connect the company's sales team with leads generated through Facebook advertisements. This platform automatically retrieves and syncs lead data from active ad campaigns, delivering real-time notifications and detailed lead information directly to the sales dashboard. By enabling instant access to incoming prospects, the application streamlines lead follow-up, enhances response times, and empowers the sales team to manage and convert leads more efficiently within a unified, intuitive interface.
+              </li>
+              <li>
+                Built a personalized chatbot assistant for the company's sales team, designed to maintain customer engagement via WhatsApp during periods when individual team members are away or on leave. Each salesperson uses their own WhatsApp account to communicate with prospects, and the chatbot seamlessly takes over in their absence to ensure no inquiries are missed. Built using <strong>NodeJS</strong>, <strong>Python</strong>, the <strong>LlamaIndex</strong> library, and <strong>ChatGPT</strong>, the chatbot is integrated with the company's travel management system to provide context-aware responses, helping to answer customer questions accurately and maintain prospect interest until a salesperson becomes available.
+              </li>
+              <li>
+                Reduced tech expenses by over RM1,000/month by eliminating unnecessary third-party subscriptions and server costs, all without disrupting business operations or requirements.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="section ml-4">
+          <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
+          <div class="flex justify-between items-center mb-2 primary-text text-sm">
+            <span class="leading-5">September, 2022 - October, 2023</span>
             <div class="flex items-center">
               <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
               <span>Kuala Lumpur</span>
@@ -91,7 +122,7 @@ const showBorder = ref(false)
             </ul>
           </div>
         </li>
-        <li class="ml-4">
+        <li class="section ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
             <span class="leading-5">March, 2020 - September, 2022</span>
@@ -119,16 +150,7 @@ const showBorder = ref(false)
             </ul>
           </div>
         </li>
-      </ol>
-    </div>
-  </div>
-  <div
-    class="page"
-    :class="{ 'show-page-border': showBorder }"
-  >
-    <div class="flex flex-col justify-start items-start px-4 pt-4">
-      <ol class="relative border-l border-gray-200 space-y-2">
-        <li class="ml-4">
+        <li class="section ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
             <span class="leading-5">March, 2018 - October, 2019</span>
@@ -150,7 +172,7 @@ const showBorder = ref(false)
             </ul>
           </div>
         </li>
-        <li class="ml-4">
+        <li class="section ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
             <span class="leading-5">October, 2016 - October, 2017</span>
@@ -261,8 +283,13 @@ const showBorder = ref(false)
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;1,700;1,900&display=swap');
 
 .page {
-  @apply mt-6 w-[7.25in] h-[10.75in] m-auto;
+  @apply w-[7.25in] h-[10.75in] m-auto;
   page-break-after: always !important;
+}
+
+.section {
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .primary-bg {
