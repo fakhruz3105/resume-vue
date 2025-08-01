@@ -96,7 +96,71 @@ const showBorder = ref(false);
     <div class="flex flex-col justify-start items-start px-4 pt-4">
       <span class="text-xl font-bold primary-text mb-2">Work Experience</span>
       <ol class="relative border-l border-gray-200 space-y-2">
-        <li class="ml-4">
+        <li class="section ml-4">
+          <div
+            class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"
+          ></div>
+          <div
+            class="flex justify-between items-center mb-2 primary-text text-sm"
+          >
+            <span class="leading-5">September, 2024 - Present</span>
+            <div class="flex items-center">
+              <svg
+                class="w-3 h-3 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                ></path>
+              </svg>
+              <span>Penang</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span class="leading-5 text-base font-bold"
+              >Mechanical Engineer - Packing Department</span
+            >
+            <span class="leading-5 text-lg font-light"
+              >SIBS Sdn Bhd</span
+            >
+            <ul class="list-disc pl-4 text-sm text-justify">
+              <li>
+                Oversee mechanical engineering functions and material planning in the packing department within a modular construction manufacturing environment.
+              </li>
+              <li>
+                Design, maintain, and optimize mechanical systems and tools used for packing modular units, ensuring efficiency and compliance with safety standards.
+              </li>
+              <li>
+                Plan, monitor, and control packing materials inventory, ensuring timely availability and minimizing shortages or overstock situations.
+              </li>
+              <li>
+                Collaborate with procurement, warehouse, and production teams to forecast material needs based on project schedules and production capacity.
+              </li>
+              <li>
+                Troubleshoot equipment issues and implement preventive maintenance to reduce machine downtime and increase operational reliability.
+              </li>
+              <li>
+                Analyze packing workflows and propose improvements aligned with SIBS Production System (SPS) principles to increase productivity and reduce waste.
+              </li>
+              <li>
+                Coordinate with suppliers and internal departments for material planning, delivery tracking, and resolving supply issues.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="section ml-4">
           <div
             class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"
           ></div>
@@ -177,7 +241,7 @@ const showBorder = ref(false);
             </ul>
           </div>
         </li>
-        <li class="ml-4">
+        <li class="section ml-4">
           <div
             class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"
           ></div>
@@ -327,8 +391,13 @@ const showBorder = ref(false);
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;1,700;1,900&display=swap");
 
 .page {
-  @apply mt-6 w-[7.25in] h-[10.75in] m-auto;
+  @apply w-[7.25in] h-[10.75in] m-auto;
   page-break-after: always !important;
+}
+
+.section {
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .primary-bg {
