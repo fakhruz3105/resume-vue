@@ -13,8 +13,8 @@ const showBorder = ref(false);
 
 <template>
   <div class="page" :class="{ 'show-page-border': showBorder }">
-    <div class="flex">
-      <div class="profile-pic bg-slate-500 rounded-xl m-4"></div>
+    <div class="flex mb-4">
+      <div class="profile-pic bg-slate-500 rounded-xl mr-4"></div>
       <div class="flex flex-col justify-start py-4">
         <span class="text-2xl font-bold">Muhammad Fakhruddin Bin Mutussin</span>
         <span class="text-base text-slate-500">Mechanical Engineer</span>
@@ -103,7 +103,7 @@ const showBorder = ref(false);
           <div
             class="flex justify-between items-center mb-2 primary-text text-sm"
           >
-            <span class="leading-5">September, 2024 - Present</span>
+            <span class="leading-5">April, 2024 - Present</span>
             <div class="flex items-center">
               <svg
                 class="w-3 h-3 mr-2"
@@ -167,7 +167,7 @@ const showBorder = ref(false);
           <div
             class="flex justify-between items-center mb-2 primary-text text-sm"
           >
-            <span class="leading-5">April, 2020 - June, 2024</span>
+            <span class="leading-5">April, 2020 - March, 2024</span>
             <div class="flex items-center">
               <svg
                 class="w-3 h-3 mr-2"
@@ -391,7 +391,7 @@ const showBorder = ref(false);
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;1,700;1,900&display=swap");
 
 .page {
-  @apply w-[7.25in] h-[10.75in] m-auto;
+  @apply w-[7.25in] h-[10.75in] mx-auto;
   page-break-after: always !important;
 }
 
@@ -417,7 +417,7 @@ const showBorder = ref(false);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #4bb2db;
+  background-color: #4BB2DB;
   width: 450px;
 }
 </style>
