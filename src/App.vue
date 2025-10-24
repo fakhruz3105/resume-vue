@@ -65,7 +65,44 @@ const showBorder = ref(false)
         <li class="section ml-4">
           <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
           <div class="flex justify-between items-center mb-2 primary-text text-sm">
-            <span class="leading-5">October, 2023 - Present</span>
+            <span class="leading-5">October, 2025 - Present</span>
+            <div class="flex items-center">
+              <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span>Kuala Lumpur</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span class="leading-5 text-base font-bold">Fullstack Software Engineer</span>
+            <span class="leading-5 text-lg font-light">Fusang Exchange Ltd</span>
+            <ul class="list-disc pl-4 text-sm text-justify">
+              <li>
+                Developed a wallet migration platform to transition users from custodial wallets to Dynamic non-custodial wallets, ensuring enhanced user control and security.
+              </li>
+              <li>
+                Built the frontend using Next.js and TypeScript, emphasizing performance, scalability, and maintainability.
+              </li>
+              <li>
+                Integrated Dynamic Wallet SDK to manage secure key handling, authentication, and wallet creation workflows.
+              </li>
+              <li>
+                Designed and implemented migration flows with clear user experience to handle asset transfer, validation, and wallet linking.
+              </li>
+              <li>
+                Integrated with API endpoints for user identity verification and transaction handling.
+              </li>
+              <li>
+                Utilized React Hooks, Context API, and TypeScript interfaces to ensure robust state management and type safety.
+              </li>
+              <li>
+                Conducted end-to-end testing and debugging across environments to ensure smooth migration with zero data loss.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="section ml-4">
+          <div class="absolute w-3 h-3 primary-bg rounded-full mt-1 -left-1.5 border border-white"></div>
+          <div class="flex justify-between items-center mb-2 primary-text text-sm">
+            <span class="leading-5">October, 2023 - September, 2025</span>
             <div class="flex items-center">
               <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
               <span>Kuala Lumpur</span>
@@ -75,9 +112,6 @@ const showBorder = ref(false)
             <span class="leading-5 text-base font-bold">Senior Software Engineer</span>
             <span class="leading-5 text-lg font-light">Muslimtravelbug Sdn Bhd</span>
             <ul class="list-disc pl-4 text-sm text-justify">
-              <li>
-                Bridged gaps between frontend and backend teams, minimizing handover errors through improved systemization. Enhanced communication protocols eliminated critical errors that could have resulted in thousands of ringgit in losses.
-              </li>
               <li>
                 Created an end-to-end travel management platform with <strong>Laravel</strong>, <strong>NodeJS</strong>, <strong>MySQL</strong>, and <strong>VueJS</strong> that centralizes package inventory, booking processes, payment handling, passenger data, and ticketing operations in one integrated system, enabling efficient tour package management and customer transactions.
               </li>
@@ -89,9 +123,6 @@ const showBorder = ref(false)
               </li>
               <li>
                 Developed an HR system using <strong>ReactJS</strong> and <strong>Supabase</strong> to manage staff details, including entry and exit forms, leave applications, and other HR-related processes, streamlining internal operations.
-              </li>
-              <li>
-                Engineered a comprehensive car rental management system using <strong>Pocketbase</strong> and <strong>Go</strong> that enables the sales team to track vehicle availability in real-time, process bookings efficiently, and handle payment transactions securely. This solution streamlines fleet management operations and enhances the customer reservation experience through an optimized backend architecture.
               </li>
               <li>
                 Configured, deployed and manage server infrastructure (Digital Ocean) to support backend services and applications.
@@ -237,6 +268,7 @@ const showBorder = ref(false)
         </li>
       </ol>
     </div>
+    <br>
     <div class="flex flex-col justify-start items-start px-4 pt-4">
       <span class="text-xl font-bold primary-text mb-2">Technical Skills</span>
       <div class="flex flex-wrap justify-around">
@@ -291,7 +323,7 @@ const showBorder = ref(false)
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;1,700;1,900&display=swap');
 
 .page {
-  @apply w-[7.25in] h-[10.75in] m-auto;
+  @apply w-[8.15in] h-[10.75in] m-auto;
   page-break-after: always !important;
 }
 
